@@ -1,13 +1,12 @@
 #include <stdio.h>
+
 /**
- *main-Serves as the entry piont for a program
- *initializes the strings
- *write the strings out
- *return-if no error return zero, otherwise return non zero value
+ *main-Entry point
+ *
+ *return: Always 0 (Success)
  */
 int main(void)
 {
-char word[] ="\"Programming is like building a multilingual puzzle";
-puts(word);
+puts("\"Programming is like building a multiligual puzzle");
 return (0);
 }
