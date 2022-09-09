@@ -3,10 +3,10 @@
 /**
  *main-Entry point
  *
- *return: Always 1 (Success)
+ *return: Always 0 (Success)
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return (1) ;
+return (0);
 }
