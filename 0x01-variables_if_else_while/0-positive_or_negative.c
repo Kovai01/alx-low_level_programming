@@ -6,6 +6,7 @@
  * Return:returns zero if no error and non zero if error
  */
 int main(void)
+
 {
 	int n;
 
@@ -22,4 +23,5 @@ int main(void)
 			printf("%d is negative\n", n);
 		}
 	return (0);
+
 }
