@@ -5,7 +5,7 @@
  * main - this is where the program start running
  * Return:returns zero if no error and non zero if error
  */
-int main(void)
+int main(void);
 
 {
 	int n;
