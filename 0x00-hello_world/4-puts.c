@@ -3,7 +3,7 @@
  *main-Serves as the entry piont for a program
  *initializes the strings
  *write the strings out
- *return:if no error return zero, otherwise return non zero value
+ *return-if no error return zero, otherwise return non zero value
  */
 int main(void)
 {
