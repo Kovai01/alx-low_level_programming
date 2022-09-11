@@ -4,7 +4,7 @@
 
 /**
 * main - this is the main function
-* 
+*
 * return: returns zero if no errors and non-zero if error
 */
 
