@@ -4,6 +4,7 @@
 
 /**
  *  main - this is the main function
+ *  description - the starting point of the program
  *  return: returns zero if no errors and non-zero if error
 */
 
