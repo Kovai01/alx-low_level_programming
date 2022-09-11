@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *  main - program start
+ *  main - this is the main function
  *
  *  return: returns zero if no errors and non-zero if error
 */
@@ -12,6 +12,7 @@ int main(void)
 
 {
 		int n;
+
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
 
