@@ -12,7 +12,7 @@ int main(void)
 		int i;
 		int j;
 
-		for(i = 0; i < 10; i++)
+		for (i = 0; i < 10; i++)
 		{
 			/**
 			 * setting the secod counter to be the value of the
@@ -41,7 +41,7 @@ int main(void)
 		}
 		}
 
-		putchar('\n')
+		putchar('\n');
 
 		return (0);
 }
