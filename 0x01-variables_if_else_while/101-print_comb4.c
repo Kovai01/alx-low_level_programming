@@ -5,7 +5,8 @@
 /**
 * main - Entry point
 * description - characters to be printed by comma and space
-* last character should be a combination of different digits
+* however, the last character should not have a comma and space
+* the combination should be a combination of different digits
 * 011,110,101 are considered same combination and the least should be printed
 * Return: Always 0 (Success)
 */
