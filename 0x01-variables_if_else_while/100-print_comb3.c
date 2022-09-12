@@ -12,14 +12,14 @@ int main(void)
 		int i;
 		int j;
 
-		for (i = 0; i < 10; i++)
+		for (i = 0; i < 9; i++)
 		{
 			/**
 			 * setting the secod counter to be the value of the
 			 * previous first counter
 			 * this will ensure J doesnt go behind i no case of 10 or 31 0r 74
 			 */
-			for (j = 1; j < 10; j++)
+			for (j = 1; j < 9; j++)
 		{
 			if (i == j) /** checking if i and j are the same
 				     * e.g. 00 or 66 or 88.
