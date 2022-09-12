@@ -4,11 +4,14 @@
 
 /**
 * main - Entry point
-*
+* description - characters to be printed by comma and space
+* last character should be a combination of different digits
+* 01 and 10 are considered same combination and the least should be printed
 * Return: Always 0 (Success)
 */
 int main(void)
 {
+		/* declaring the two counter variables*/
 		int i;
 		int j;
 
@@ -33,7 +36,7 @@ int main(void)
 			 * this is to know when to print space and comma
 			 * they shouldnt be after the last value
 			 */
-			if (j == 10 && i == j - 1)
+			if (j == 9 && i == j - 1)
 				continue;
 
 			putchar(',');
