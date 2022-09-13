@@ -7,7 +7,7 @@
 void print_alphabet(void)
 {
 	char c;
-	if(c = a; c <= z; c++)
+	if(c = a; c <= z; c++);
 	{
 		putchar c;
 	}
