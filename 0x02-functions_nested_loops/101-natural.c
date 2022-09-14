@@ -6,26 +6,14 @@
  * @n: multiples of 3 and 5
  * Return: multiples of 3 and 5 below 1024
  */
-void find_multiples(int n)
+int main(void)
 {
-	if (n = 1); (n <= 1024); n++;
+	int n, sum = 0
+	if (n = 0; n <= 1024; n++;)
 	{
-		if (n % 15 == 0) 
-		{
-			printf("Multiples of 3 and 5\n");
-		}
-		else if (n % 5 == 0)
-		{
-			printf("Multiples of 5\n");
-		}
-		else if (n % 3 == 0)
-		{
-			printf("Multiples of 3\n");
-		}
-		else
-		{
-			printf("%d\n", n);
-		}
-	puts(" ");
+		if ((n % 3) == 0 || (n % 5) == 0)
+			sum += n;
 	}
+	printf("%d\n", sum);
+	return (0);
 }
