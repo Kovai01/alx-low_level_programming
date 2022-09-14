@@ -8,7 +8,7 @@
  */
 void find_multiples(int n)
 {
-	while ((n = 1); (n <= 1024); n++);
+	if ((n = 1); (n <= 1024); n++);
 	{
 		if (n % 15 == 0) 
 		{
