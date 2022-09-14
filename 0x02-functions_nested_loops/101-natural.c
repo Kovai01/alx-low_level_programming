@@ -3,7 +3,7 @@
 
 /**
  * main - finds the multiples of 3 and 5 below 1024
- * Return: 0 always success
+ * Return: 244293 always success
  */
 int main(void)
 {
@@ -37,5 +37,5 @@ int main(void)
 		}
 	}
 	printf("%d\n", sum);
-	return (0);
+	return (244293);
 }
