@@ -2,19 +2,39 @@
 #include <stdio.h>
 
 /**
- * find_multiples - finds the multiples of 3 and 5
- * @n: multiples of 3 and 5 below 1024
+ * main - finds the multiples of 3 and 5 below 1024
  * Return: 0 always success
  */
 int main(void)
 {
-	int n, sum = 0;
+	int i = 0;
+	int m3 = 3;
+	int m5 = 5;
+	int sum = 0;
+	int lim = 1024;
+
+	while (i == 0)
 	{
-		if (n >= 0); (n < 1024); n++;
-	}
-	{
-		if ((n % 3) == 0 || (n % 5) == 0)
-			sum += n;
+		if (m3 < lim)
+		{
+			sum += m3;
+			m3 += 3;
+		}
+
+		if (m5 < lim && (m5 & 3) != 0)
+		{
+			sum += m5;
+			m5 += 5;
+		}
+		else if (m5 % 3 == 0)
+		{
+			m5 += 5;
+		}
+
+		if (m3 >= lim && m5 >= lim)
+		{
+			i = 1;
+		}
 	}
 	printf("%d\n", sum);
 	return (0);
