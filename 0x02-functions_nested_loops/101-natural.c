@@ -3,39 +3,18 @@
 
 /**
  * main - finds the multiples of 3 and 5 below 1024
- * Return: 244293 always success
+ * Return: always success
  */
 int main(void)
 {
-	int i = 0;
-	int m3 = 3;
-	int m5 = 5;
-	int sum = 0;
-	int lim = 1024;
+	int sum, num;
 
-	while (i == 0)
+	for (num = 0; num < 1024; ++num)
 	{
-		if (m3 < lim)
-		{
-			sum += m3;
-			m3 += 3;
-		}
-
-		if (m5 < lim && (m5 & 3) != 0)
-		{
-			sum += m5;
-			m5 += 5;
-		}
-		else if (m5 % 3 == 0)
-		{
-			m5 += 5;
-		}
-
-		if (m3 >= lim && m5 >= lim)
-		{
-			i = 1;
-		}
+		if ((num % 3 == 0) || (num % 5 == 0))
+			sum += num;
 	}
 	printf("%d\n", sum);
-	return (244293);
+
+	return (0);
 }
