@@ -28,7 +28,7 @@ int numLength(int num)
  * return: 0 always success
  */
 
-int main(void)
+int main(0)
 {
 	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
 	short int i = 1, initial0s;
