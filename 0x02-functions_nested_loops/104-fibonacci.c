@@ -25,7 +25,7 @@ int numLength(int num)
 }
 /**
  * *main - prints the first 98 fibonaci sequences
- * return: 0 always success
+ * Return: 0
  */
 
 int main(void)
