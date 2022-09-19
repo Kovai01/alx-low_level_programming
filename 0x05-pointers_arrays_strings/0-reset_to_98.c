@@ -2,17 +2,13 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * reset to 98 - resets the code
  *
  * Return: Always 0
  */
-int main (void)
+void reset_to_98(int *n);
 {
 	int n;
 
-	n = 402;
-	printf("n=%d\n", n);
-	reset_to_98(&n);
-	printf("n=%d\n" n);
-	return (0);
+	*n = 98
 }
