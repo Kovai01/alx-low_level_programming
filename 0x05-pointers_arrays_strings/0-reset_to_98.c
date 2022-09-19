@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * reset to 98 - resets the code
- * @*n: it is the major variable
+ * reset_to_98 - resets the code
+ * @n: it is the major parameter
  * Return: Always 0
  */
 void reset_to_98(int *n)
