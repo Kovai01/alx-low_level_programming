@@ -4,29 +4,28 @@
 *@str: string to capitalize
 *Return:returns the capitalized string
 */
-char *cap_string(char *str)
+char *cap_string(char *p)
 {
-	int index = 0;
+	int i;
+	char *j;
 
-	while (str[++index])
+	for (i = 0; *(p + i) != '\0'; i++)
 	{
-		while (!(str[index] >= 'a' && str[index] <= 'z'))
-			index++;
-
-		if (str[index - 1] == ' ' ||
-				str[index - 1] == '\t' ||
-				str[index - 1] == '\n' ||
-				str[index - 1] == ',' ||
-				str[index - 1] == ';' ||
-				str[index - 1] == '.' ||
-				str[index - 1] == '!' ||
-				str[index - 1] == '?' ||
-				str[index - 1] == '"' ||
-				str[index - 1] == '(' ||
-				str[index - 1] == ')' ||
-				str[index - 1] == '{' ||
-				str[index - 1] == '}')
-			str[index] -= 32;
+		j = p + i - 1;
+		if ((*j <= 122 && *j >= 97) ||  (*j <= 90 && *j >= 65))
+		{
+		}
+		else if ((*j <= 57 && *j >= 48) || *j == 45)
+		{
+		}
+		else
+		{
+			if (*(p + i) <= 122 && *(p + i) >= 97)
+				*(p + i) = *(p + i) - 32;
+			else
+			{
+			}
+		}
 	}
-	return (str);
+	return (p);
 }
