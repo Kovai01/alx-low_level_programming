@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
 *cap_string - changes all letters to uppercase
 *@str: parameter
@@ -14,7 +13,6 @@ char *cap_string(char *)
 		while (!(str[index] >= 'a' && str[index] <= 'z'))
 			index++;
 
-		
 		if (str[index - 1] == ' ' ||
 				str[index - 1] == '\t' ||
 				str[index - 1] == '\n' ||
@@ -30,6 +28,5 @@ char *cap_string(char *)
 				str[index - 1] == '}')
 			str[index] -= 32;
 	}
-
 	return (str);
 }
