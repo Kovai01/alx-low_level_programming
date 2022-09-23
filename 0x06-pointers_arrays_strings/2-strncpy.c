@@ -6,7 +6,7 @@
  * @dest: destination
  * @src: source
  * @n: where array concat
- * Return: destination after appending src
+ * Return: returns dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
