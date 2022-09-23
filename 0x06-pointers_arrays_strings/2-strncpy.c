@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
- * _strncpy - copies two strings
+ * _strncpy - copy and overwrite strings
  * @dest: the final copied string
  * @src: the string to copy
  * @n: where array src stops cpying
