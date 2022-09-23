@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-*cap_string - changes all letters to uppercase
-*@str: parameter
-*Return: returns a character
-*/
+ * cap_string - changes all letters to uppercase
+ * @str: parameter
+ * Return: returns a character
+ */
 char *cap_string(char *str)
 {
 	int index = 0;
