@@ -3,9 +3,9 @@
 
 /**
  * _strncpy - copies two strings
- * @dest: destination
- * @src: source
- * @n: where array concat
+ * @dest: the final copied string
+ * @src: the string to copy
+ * @n: where array src stops cpying
  * Return: returns dest
  */
 char *_strncpy(char *dest, char *src, int n)
