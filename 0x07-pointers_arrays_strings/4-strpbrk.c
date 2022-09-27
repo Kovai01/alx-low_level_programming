@@ -6,7 +6,7 @@
 * Return: returns a pointer to the target
 */
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	int i;
 
