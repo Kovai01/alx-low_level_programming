@@ -1,30 +1,22 @@
 #include "main.h"
 /**
-*_strstr - locates the first occurrence in the string
-* @*haystack: string targeted
-* @*needle: the recieving target
+*_strpbrk - locates the first occurrence in the string
+* @s: string targeted
+* @accept: the recieving target
 * Return: returns a pointer to the target
 */
-char *_strstr(char *haystack, char *needle);
+char *_strpbrk(char *s, char *accept)
 {
 	int i;
 
-	if (*needle == 0)
-		return (haystack);
-
-	while (*haystack)
+	while (*s)
 	{
-		 i = 0;
-
-		 if (haystack[1] == meedle[i])
+		for (i = 0; accept[i]; i++)
 		{
-			do {
-				if (accept[1 + i] == '\0')
-					return (haystack);
-				i++;
-			} while (haystack[i] == needle[i]);
+			if (accept[i] == *s)
+				return (s);
 		}
-		 haystack++;
+		s++;
 	}
-	return ('\0');
+		return ('\0');
 }
