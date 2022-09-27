@@ -5,7 +5,8 @@
  * pointed to by s with the constant byte b
  * @s: initial segment
  * @accept: cource of bytes
- * Return: returns new value of target
+ * Return: returns the number of bytes in the initial
+ * segment of s which consist of bytes from accept
  */
 
 unsigned int _strspn(char *s, char *accept)
@@ -22,7 +23,7 @@ unsigned int _strspn(char *s, char *accept)
 				bytes++;
 				break;
 			}
-			else if ((accept[i + 1]) == '0\')
+			else if ((accept[i + 1]) == '\0')
 				return (bytes);
 		}
 		s++;
