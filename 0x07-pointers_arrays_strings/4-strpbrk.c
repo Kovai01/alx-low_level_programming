@@ -2,7 +2,6 @@
 /**
 *_strpbrk - locates the first occurrence in the string
 * @s: string targeted
-* @c: character targeted
 * @accept: the recieving target
 * Return: returns a pointer to the target
 */
