@@ -5,7 +5,7 @@
 * @*needle: the recieving target
 * Return: returns a pointer to the target
 */
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
 {
 	int i;
 
@@ -14,17 +14,17 @@ char *_strstr(char *haystack, char *needle);
 
 	while (*haystack)
 	{
-		 i = 0;
+		i = 0;
 
-		 if (haystack[1] == meedle[i])
+		if (haystack[i] == needle[i])
 		{
 			do {
-				if (accept[1 + i] == '\0')
+				if (needle[i + 1] == '\0')
 					return (haystack);
 				i++;
 			} while (haystack[i] == needle[i]);
 		}
-		 haystack++;
+		haystack++;
 	}
 	return ('\0');
 }
