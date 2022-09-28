@@ -14,7 +14,7 @@ void _print_rev_recursion(char *s)
 	for (index = 0; s[index] != '\0';)
 		;
 
-	for (--index; index >= 0;)
+	for (index >= 0;)
 		putchar(s[index]);
 	putchar('\n');
 }
