@@ -1,3 +1,3 @@
 #!/bin/bash
 gcc -c ./*.c
-ar -rc libmay.h ./*.o
+ar -rc libmay.h .iiiiiiii/*.o
