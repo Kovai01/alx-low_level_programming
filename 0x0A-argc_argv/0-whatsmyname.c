@@ -2,8 +2,16 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main()
+/**
+ * main - the function
+ * argc: the argument size
+ * argv: the argument length
+ * Return: 0
+ */
+
+int main(int argc, char *argv[])
 {
-	printf("0-whatsmyname.c");
-		return 0;
+	(void)argc;
+		printf("%s\n" argv[0]);
+		Return (0);
 }
