@@ -11,7 +11,7 @@ void *malloc_checked(unsigned int b)
 {
 	int n, *ptr;
 	{
-		ptr = (int*)malloc(n*sizeof(int));
+		arrayPtr = (int*)malloc(98*sizeof(int));
 	}
 	return(0);
 }
