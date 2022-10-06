@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 /**
 *string_nconcat - Concatenates two strings using at
