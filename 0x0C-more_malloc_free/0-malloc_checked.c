@@ -9,9 +9,9 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	int n, *ptr;
-	{
-		arrayPtr = (int*)malloc(98*sizeof(int));
-	}
-	return(0);
+	void *m;
+
+	m = malloc(b)
+		exit (*m == NULL);
+	return(m);
 }
