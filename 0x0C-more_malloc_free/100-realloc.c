@@ -55,4 +55,5 @@ else
 }
 
 return (0);
+free (ptr);
 }
