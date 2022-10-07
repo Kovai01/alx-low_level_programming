@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "holberton.h"
 
 /**
  * _puts - prints a string, followed by a new line,
@@ -15,7 +14,7 @@ void _puts(char *str)
 int i = 0;
 while (str[i])
 {
-	_putchar(str[i]);
+	putchar(str[i]);
 	i++;
 }
 
@@ -66,7 +65,7 @@ for (i = 0; n / divisor > 9; i++, divisor *= 10)
 for (; divisor >= 1; n %= divisor, divisor /= 10)
 {
 	resp = n / divisor;
-	_putchar('0' + resp);
+	putchar('0' + resp);
 }
 
 }
@@ -88,7 +87,7 @@ if (argc != 3)
 	exit(98);
 }
 print_int(_atoi(argv[1]) * _atoi(argv[2]));
-_putchar('\n');
+putchar('\n');
 
 return (0);
 }
