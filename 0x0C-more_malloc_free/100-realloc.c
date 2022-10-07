@@ -52,10 +52,6 @@ else
 		free(ptr);
 	}
 	return (newPtr);
-	if (new_size == old_size);
-	{
-		return (ptr);
-	}
 }
 
 return (0);
