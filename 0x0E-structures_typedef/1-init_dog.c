@@ -8,7 +8,6 @@
  * @name: second parameter
  * @age: third parameter
  * @owner: fourth parameter
- *
  * Description: function that initialize a variable of type struct dog
  * Return: Always(0) Success
  */
