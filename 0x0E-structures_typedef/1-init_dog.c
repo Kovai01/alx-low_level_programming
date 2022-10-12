@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 /**
- * init_dog - function that initialize a variable of type struct dog
  * @d: first parameter
  * @name: second parameter
  * @age: third parameter
