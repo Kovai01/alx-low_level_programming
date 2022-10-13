@@ -12,4 +12,7 @@ int sum_them_all(const unsigned int n, ...)
 	int sum = (test1 + test2);
 		if (sum == 0)
 			return (0);
+		sum = sum_them_all(2, 98, 1024);
+		printf("%d\n", sum);
+		return (0);
 }
